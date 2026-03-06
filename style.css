@@ -1,0 +1,131 @@
+body {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.menu-bar {
+  background: black;
+  border-radius: 40px;
+  height: 90px;
+  width: 694px;
+  display: flex;
+  align-items: center; 
+}
+
+.menu-bar button {
+  border-radius: 40px;
+  height: 50px;
+  width: 79px;
+  background-color: yellow;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  display: flex; 
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar ul li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  background-color: #555;
+}
+
+.intro {
+  background-color: black; 
+  border-radius: 40px;
+  height: 290px;
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.template {
+  height: 123px;
+  border-radius: 34px;
+  display: flex;
+  padding: 14px 20px;
+}
+
+.intro h1 {
+  color: white;
+  font-family: verdana;
+  font-size: xx-large; 
+  display: flex;
+  justify-content: center;
+}
+
+.mipmap {
+  height: 53px;
+  border-radius: 67px;
+  display: flex;
+  padding: 14px 20px;
+  margin: 0;
+}
+.txt{
+  color: gray;
+}
+.counter-section{
+ padding:80px 20px;
+ background: black;
+  margin-top: 10px;
+border-radius: 40px;
+}
+
+.counter{
+font-size:62px;
+font-weight:bold;
+color: yellow;
+}
+
+.label{
+font-size:22px;
+margin-top:10px;
+}
+.label h1{
+  color: yellow;
+  font-size: small;
+}
+.ping{
+  color: gray;
+  font-family: san-serif;
+}
+.ceo{
+  height: 220px;
+  border-radius: 34px;
+  border: gray;
+  margin-top: 10px;
+  width: auto;
+}
+.external{
+  background-color: black;
+  border: none;
+  border-radius: 34px;
+  margin-top: 10px;
+  height: 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.external h6{
+  color: yellow;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 14px;
+}
